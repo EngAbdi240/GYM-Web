@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: black;
+    color: white;
+}
+
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+
+    
+}
+
+.logo img{
+
+    width: 200px;
+    
+}
+
+
+ul{
+
+    display: flex;
+    gap: 40px;
+    font-size: 1.5rem;
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+}
+
+ul a{
+
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover {
+  color: goldenrod;
+  transform: translateY(-3px);
+}
+
+.btn-header{
+
+    padding: 15px 40px;
+    background-color: gold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px gold, 0 0 25px gold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.btn-header:hover {
+  /* background-color: #131D4F;
+  transform: scale(1.05);
+  color: white; */
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px goldenrod;
+
+} 
+
+.serv-header{
+
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.serv-header h1{
+
+    font-size: 3em;
+    text-shadow: 5px 5px 10px darkkhaki;
+}
+
+.service-box1{
+
+    width: 500px;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(https://images.pexels.com/photos/3490348/pexels-photo-3490348.jpeg?auto=compress&cs=tinysrgb&w=300);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.service-box1:not(:hover){
+
+    opacity: 7;
+    transform: scale(.85);
+
+}
+
+.service-box1 img{
+
+    margin-top: 35%;
+    margin-bottom: 10px;
+
+}
+
+.service-box1 h2{
+
+    margin-bottom: 10px;
+}
+
+
+.service-box2{
+
+    width: 500px;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(https://images.pexels.com/photos/18112396/pexels-photo-18112396/free-photo-of-man-lifting-dumbbells.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.service-box2:not(:hover){
+
+    opacity: 7;
+    transform: scale(.85);
+
+}
+
+.service-box2 img{
+
+    margin-top: 35%;
+    margin-bottom: 10px;
+
+}
+
+.service-box2 h2{
+
+    margin-bottom: 10px;
+}
+
+.service-box3{
+
+    width: 500px;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(https://images.pexels.com/photos/29690742/pexels-photo-29690742/free-photo-of-male-bodybuilder-performing-dumbbell-workout.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.service-box3:not(:hover){
+
+    opacity: 7;
+    transform: scale(.85);
+
+}
+
+.service-box3 img{
+
+    margin-top: 35%;
+    margin-bottom: 10px;
+
+}
+
+.service-box3 h2{
+
+    margin-bottom: 10px;
+}
+
+.service-box4{
+
+    width: 500px;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(https://images.pexels.com/photos/31849595/pexels-photo-31849595/free-photo-of-athletic-man-lifting-dumbbell-in-gym.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.service-box4:not(:hover){
+
+    opacity: 7;
+    transform: scale(.85);
+
+}
+
+.service-box4 img{
+
+    margin-top: 35%;
+    margin-bottom: 10px;
+
+}
+
+.service-box4 h2{
+
+    margin-bottom: 10px;
+}
+
+.service-box5{
+
+    width: 500px;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(https://images.pexels.com/photos/5327478/pexels-photo-5327478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.service-box5:not(:hover){
+
+    opacity: 7;
+    transform: scale(.85);
+
+}
+
+.service-box5 img{
+
+    margin-top: 35%;
+    margin-bottom: 10px;
+
+}
+
+.service-box5 h2{
+
+    margin-bottom: 10px;
+}
+
+.service-box6{
+
+    width: 500px;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(https://images.pexels.com/photos/9602276/pexels-photo-9602276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-box6:not(:hover){
+
+    opacity: 7;
+    transform: scale(.85);
+
+}
+
+.service-box6 img{
+
+    margin-top: 35%;
+    margin-bottom: 10px;
+
+}
+
+.service-box6 h2{
+
+    margin-bottom: 10px;
+}
+
+
+
+.serv-boxes{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+    margin-left: 70px;
+    margin-top: 60px;
+
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+    margin-top: 10%;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #f9c846;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.location {
+    flex: 1;
+    min-width: 250px;
+    margin-left: 40px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.call i {
+    color: #f9c846;
+}
+
+/* Quick Links */
+.Quick-link {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left:80px;
+}
+
+.Quick-link a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.Quick-link a:hover {
+    color: #f9c846;
+}
+
+/* Social Links */
+.social-link {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-link a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-link a:hover {
+    color: #f9c846;
+}
+
+
+
+
