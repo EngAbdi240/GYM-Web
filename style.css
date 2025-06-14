@@ -771,53 +771,124 @@ ul a:hover {
 
 
 
-            /* responsive page */
+                    /* Responsive */
 
 
-@media (max-width: 1024px) {
-  .container, .content, .boxes, .years, .trianer, .price, .posts, .footer {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .discription {
-    width: 90%;
-    margin: 10% auto;
-    text-align: center;
-  }
-
-  ul {
-    display:block;
-    gap: 20px;
-    align-items: center;
-  }
+  @media (min-width: 390px) and (max-width: 455px) {
 
   .header {
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    padding: 10px;
   }
 
   .logo img {
     width: 150px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    align-items: center;
+    padding: 0;
+  }
+
+  .btn-header {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .discription {
+    width: 90%;
+    margin: 20% auto 0 auto;
+    text-align: center;
+  }
+
+  .discription h1 {
+    font-size: 2rem;
+  }
+
+  .discription p {
+    font-size: 1rem;
+  }
+
+  .content {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0 10px;
+    text-align: center;
   }
 
   .right {
     width: 90%;
-    text-align: center;
   }
 
-  .box1, .box2, .box3, .box4,
-  .trainer-box1, .trainer-box2, .trainer-box3,
-  .price-box,
-  .post-box {
+  .boxes {
+    display: block;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .box1, .box2, .box3, .box4 {
     width: 90%;
-    height: auto;
+    /* height: 250px; */
+    margin-top: 10px;
+  }
+
+  .year, .years {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .train-header h1 {
+    font-size: 2rem;
+  }
+
+  .trianer {
+    display: block;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .trainer-box1,
+  .trainer-box2,
+  .trainer-box3 {
+    width: 90%;
+    /* height: 300px; */
   }
 
   .form {
-    width: 90%;
-    margin: 20% auto;
+    margin-left: 2%;
+    width: 80%;
+    margin-top: 10%;
+  }
+
+  .price {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .price-box {
+    width: 100%;
+  }
+
+  .posts {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .post-box {
+    width: 100%;
   }
 
   .post-box img {
@@ -827,59 +898,22 @@ ul a:hover {
 
   .footer {
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    gap: 20px;
+  }
+
+  .Quick-link, .social-link {
+    display: none;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .Quick-link {
+    align-items: center;
+  }
+
+  .social-link a {
+    margin: 5px;
   }
 }
-
-@media (max-width: 600px) {
-  .discription h1 {
-    font-size: 2rem;
-  }
-
-  .discription p {
-    font-size: 1.2rem;
-  }
-
-  ul {
-    
-    font-size: 1.2rem;
-
-  }
-
-  .right h1 {
-    font-size: 1.8rem;
-  }
-
-  .right p, .right h3 {
-    font-size: 1.1rem;
-  }
-
-  .box-header h1,
-  .train-header h1,
-  .post h1 {
-    font-size: 2rem;
-  }
-
-  .train-header p {
-    font-size: 1.2rem;
-  }
-
-  .price-box h3 {
-    font-size: 24px;
-  }
-
-  .price-box h1 {
-    font-size: 18px;
-  }
-
-  .post-box h1,
-  .post-box p {
-    font-size: 1.2rem;
-  }
-}
-
-
-
-
-
+                  

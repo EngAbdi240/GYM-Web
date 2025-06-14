@@ -383,4 +383,114 @@ ul a:hover {
 
 
 
+                                /* Responsive */
+
+
+
+@media screen and (min-width: 390px) and (max-width: 455px) {
+
+  /* Header Adjustments */
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .logo img {
+    width: 130px;
+  }
+
+  ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+
+  .btn-header {
+    padding: 10px 20px;
+    font-size: 1rem;
+    width: auto;
+  }
+
+  /* Service Section */
+  .serv-header h1 {
+    font-size: 2rem;
+  }
+
+  .serv-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    gap: 20px;
+  }
+
+  .service-box1,
+  .service-box2,
+  .service-box3,
+  .service-box4,
+  .service-box5,
+  .service-box6 {
+    width: 90%;
+    height: 280px;
+    margin-top: 20px;
+  }
+
+  .service-box1 img,
+  .service-box2 img,
+  .service-box3 img,
+  .service-box4 img,
+  .service-box5 img,
+  .service-box6 img {
+    margin-top: 30%;
+    width: 50px;
+  }
+
+  .service-box1 h2,
+  .service-box2 h2,
+  .service-box3 h2,
+  .service-box4 h2,
+  .service-box5 h2,
+  .service-box6 h2 {
+    font-size: 1.2rem;
+  }
+
+  /* Footer Adjustments */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 30px 10px;
+  }
+
+  
+  .Quick-link,
+  .social-link {
+    display: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .Quick-link {
+    display: none;
+    align-items: center;
+  }
+
+  .Quick-link a,
+  .social-link a {
+    font-size: 16px;
+  }
+
+  .call {
+    justify-content: center;
+  }
+}
+
+                                
 
